@@ -33,7 +33,6 @@ class GoodsList {
                 let goodTitle = good.dataset.title
                 let goodPrice = good.dataset.price
                 let goodId = good.id
-
                 let cartItem = new CartItem(goodTitle, goodPrice, goodId)
                 cartList.addItemToCart(cartItem)
             })
